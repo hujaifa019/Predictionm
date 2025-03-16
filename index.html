@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhandi Munda Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎲 Jhandi Munda Prediction 🎲</h1>
+
+        <!-- Dark Mode Toggle -->
+        <button id="theme-toggle">🌙 Dark Mode</button>
+
+        <!-- User Input Section -->
+        <div class="input-section">
+            <h3>Last 6 Results</h3>
+            <div class="dropdowns">
+                <select id="result1">
+                    <option value="">Select</option>
+                    <option value="Jhandi">Jhandi</option>
+                    <option value="Munda">Munda</option>
+                    <option value="Paan">Paan</option>
+                    <option value="Hukum">Hukum</option>
+                    <option value="Chidi">Chidi</option>
+                    <option value="Eent">Eent</option>
+                </select>
+                <select id="result2">
+                    <option value="">Select</option>
+                    <option value="Jhandi">Jhandi</option>
+                    <option value="Munda">Munda</option>
+                    <option value="Paan">Paan</option>
+                    <option value="Hukum">Hukum</option>
+                    <option value="Chidi">Chidi</option>
+                    <option value="Eent">Eent</option>
+                </select>
+                <select id="result3">
+                    <option value="">Select</option>
+                    <option value="Jhandi">Jhandi</option>
+                    <option value="Munda">Munda</option>
+                    <option value="Paan">Paan</option>
+                    <option value="Hukum">Hukum</option>
+                    <option value="Chidi">Chidi</option>
+                    <option value="Eent">Eent</option>
+                </select>
+                <select id="result4">
+                    <option value="">Select</option>
+                    <option value="Jhandi">Jhandi</option>
+                    <option value="Munda">Munda</option>
+                    <option value="Paan">Paan</option>
+                    <option value="Hukum">Hukum</option>
+                    <option value="Chidi">Chidi</option>
+                    <option value="Eent">Eent</option>
+                </select>
+                <select id="result5">
+                    <option value="">Select</option>
+                    <option value="Jhandi">Jhandi</option>
+                    <option value="Munda">Munda</option>
+                    <option value="Paan">Paan</option>
+                    <option value="Hukum">Hukum</option>
+                    <option value="Chidi">Chidi</option>
+                    <option value="Eent">Eent</option>
+                </select>
+                <select id="result6">
+                    <option value="">Select</option>
+                    <option value="Jhandi">Jhandi</option>
+                    <option value="Munda">Munda</option>
+                    <option value="Paan">Paan</option>
+                    <option value="Hukum">Hukum</option>
+                    <option value="Chidi">Chidi</option>
+                    <option value="Eent">Eent</option>
+                </select>
+            </div>
+            <button onclick="predict()">Predict Next</button>
+        </div>
+
+        <!-- Loading Screen -->
+        <div id="loading-screen">
+            🎲 Rolling Dice...
+        </div>
+
+        <!-- Prediction Output -->
+        <div id="prediction-result">
+            <h2>Next Prediction: <span id="predicted-symbol">?</span></h2>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
